@@ -2,7 +2,7 @@
 
 # Digit Recognition Using Faster R-CNN
 
-**Student ID**: 123456789
+**Student ID**: 312540014
 
 This project uses a modified Faster R-CNN to recognize digits in images. It detects each digit with bounding boxes and recognizes the entire number in the image.
 
