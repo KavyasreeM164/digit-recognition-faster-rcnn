@@ -24,38 +24,38 @@ The model should be optimized for both accuracy and inference speed.
 ## File Structure
 faster_rcnn_digit_recognition/
 │
-├── config/                        # Configuration files
-│   └── config.yaml               # Hyperparameters, paths, training settings
+├── config/                       
+│   └── config.yaml               
 │
-├── data/                          # Dataset-related code
-│   ├── dataset.py                # Custom dataset class
-│   └── transforms.py             # Data augmentations and preprocessing
+├── data/                         
+│   ├── dataset.py                
+│   └── transforms.py             
 │
-├── models/                        # Model-related code
-│   ├── faster_rcnn.py            # Faster R-CNN model builder
-│   └── backbone.py               # Backbone network modifications (e.g., ResNet50)
+├── models/                        
+│   ├── faster_rcnn.py            
+│   └── backbone.py               
 │
-├── utils/                         # Utility functions
-│   ├── engine.py                 # Training and evaluation loop
-│   ├── utils.py                  # Helper functions
-│   └── visualization.py         # Tools for visualizing predictions
+├── utils/                         
+│   ├── engine.py                
+│   ├── utils.py                  
+│   └── visualization.py         
 │
-├── outputs/                       # Directory for saved results
-│   ├── checkpoints/             # Model checkpoints
-│   └── logs/                    # Training logs
+├── outputs/                      
+│   ├── checkpoints/            
+│   └── logs/                    
 │
-├── test/                          # Testing and inference scripts
-│   └── test.py                   # Run model on test set
+├── test/                         
+│   └── test.py                  
 │
-├── train.py                       # Main training script
-├── inference.py                   # Inference script
-├── evaluate.py                    # Evaluation metrics script
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project overview
+├── train.py                      
+├── inference.py                   
+├── evaluate.py                   
+├── requirements.txt               
+└── README.md                     
 
 ## Requirements
 torch==1.6.0
-torchvision==0.7.0          # Compatible with torch 1.6
+torchvision==0.7.0         
 numpy==1.17.0
 opencv-python>=4.1.0
 matplotlib
